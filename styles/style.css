@@ -54,7 +54,8 @@ li {
   display: flex;
 }
 #nav-header ul li {
-  margin-left: 2rem;
+  margin-left: 0.3rem;
+  border: 1px solid blue;
   margin-top: 0.6rem;
 }
 #nav-header ul li a {
