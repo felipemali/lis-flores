@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   #container-header h2 {
-    font-size: 0rem;
+    font-size: 1rem;
     border: 1px solid red;
   }
   #photos {
