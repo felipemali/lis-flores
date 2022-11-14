@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 body {
   margin: 0;
   padding: 0;
-  background-color: #f5f1df;
+  background-color: #ecebe2;
+  /* background-color: #eee; */
+}
+
+@font-face {
+  font-family: "font";
+  src: url(../fonts/KolkerBrush-Regular.ttf);
 }
 header {
   background-color: #222;
+  box-shadow: 1px 2px 25px 3px rgb(119, 118, 118);
   padding: 0.3rem;
 }
 a {
@@ -24,9 +33,17 @@ li {
   margin-left: auto;
 }
 #container-header {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+#container-header h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+  padding: 0;
+  margin: auto 0;
 }
 #container-header a {
   color: #999;
@@ -60,7 +77,6 @@ li {
   height: 350px;
 }
 #development article {
-  /* background-color: rgb(214, 213, 213); */
   width: 40%;
   padding-top: 1rem;
 }
@@ -69,7 +85,6 @@ li {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  /* color: rgb(90, 88, 88); */
   color: #333;
 }
 #development article p {
@@ -77,7 +92,6 @@ li {
   font-size: 1.1rem;
   font-weight: 500;
 }
-
 #about {
   display: flex;
   justify-content: center;
@@ -122,7 +136,6 @@ li {
 #promotions span {
   animation: black-friday 1.2s ease infinite;
 }
-
 #about #values h2,
 #goals h2,
 #promotions h2 {
@@ -141,9 +154,8 @@ li {
   padding-left: 1rem;
   color: rgb(87, 86, 86);
 }
-/* gallery */
 #gallery {
-  background-color: #f5f1df;
+  background-color: #e7dbc2;
   padding: 0.1rem 0 0 0;
 }
 #gallery .container h1 {
@@ -166,20 +178,18 @@ li {
   text-transform: uppercase;
   font-weight: 600;
 }
-
 #photos {
   width: 80%;
-  margin: 2rem auto 4rem auto;
+  margin: 2rem auto 0 auto;
+  padding-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: #fde3a7; */
 }
-
 #photos img {
   width: 200px;
   height: 150px;
   margin: 2rem 0 0 2rem;
-  background: linear-gradient(90deg, #b9a881 -30%, #7a6c4b 35%, #dfbf76 100%);
+  background: linear-gradient(90deg, #f0ddb0 -20%, #fff 35%, #f0ddb0 140%);
   transition: all 0.5s;
   animation-timing-function: ease;
   cursor: pointer;
