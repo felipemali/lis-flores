@@ -53,8 +53,8 @@ li {
 #nav-header ul {
   display: flex;
 }
-#nav-header ul li {
-  margin-left: 0.3rem;
+#nav-header ul li > li {
+  margin-left: 0.9rem;
   border: 1px solid blue;
   margin-top: 0.6rem;
 }
