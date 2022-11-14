@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf4d3;
+  /* background-color: rgb(134, 134, 35); */
+}
+header {
+  background-color: #222;
+  padding: 0.3rem;
+}
+a {
+  text-decoration: none;
+}
+a:focus {
+  color: rgb(107, 107, 106);
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#container-header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+#container-header a {
+  color: #999;
+}
+#logo img {
+  width: 70px;
+  height: 70px;
+}
+#nav-header ul {
+  display: flex;
+}
+#nav-header ul li {
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+}
+#nav-header ul li a {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#nav-header ul li a:hover {
+  color: rgb(184, 177, 177);
+}
+#development {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+#development img {
+  width: 45%;
+  height: 350px;
+}
+#development article {
+  /* background-color: rgb(214, 213, 213); */
+  width: 40%;
+  padding-top: 1rem;
+}
+#development article h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  /* color: rgb(90, 88, 88); */
+  color: #333;
+}
+#development article p {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 4rem 0;
+}
+#about #values,
+#goals,
+#promotions {
+  width: 300px;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+#about #values:hover,
+#goals:hover,
+#promotions:hover {
+  transform: translateY(10px);
+  transition: all 0.3s;
+}
+#about img {
+  display: none;
+}
+#about #ramo {
+  display: block;
+  margin-top: 1.3rem;
+  height: 200px;
+}
+#about #galho {
+  display: block;
+  margin-top: 1rem;
+  width: 280px;
+  height: 250px;
+}
+#about #values:hover > img,
+#goals:hover > img,
+#promotions:hover > img {
+  display: block;
+  margin: auto;
+  animation: info-floricultura 0.4s ease-in-out;
+  width: 270px;
+  height: 200px;
+}
+#promotions span {
+  animation: black-friday 1.2s ease infinite;
+}
+@keyframes info-floricultura {
+  0% {
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    width: 270px;
+    height: 200px;
+  }
+}
+
+#about #values h2,
+#goals h2,
+#promotions h2 {
+  color: #333;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+#about #values p,
+#goals p,
+#promotions p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  color: rgb(87, 86, 86);
+}
+/* gallery */
+#gallery {
+  background-color: #faf4d3;
+  padding: 0.1rem 0 0 0;
+}
+#gallery .container h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+#gallery .container p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(71, 69, 69);
+}
+#gallery .container span {
+  animation: black-friday 1s ease infinite;
+  animation-fill-mode: forwards;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@keyframes black-friday {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000000;
+  }
+}
+#photos {
+  width: 80%;
+  margin: 2rem auto 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fde3a7;
+}
+#photos img {
+  width: 200px;
+  height: 150px;
+  margin: 2rem 0 0 2rem;
+  background: linear-gradient(90deg, #b9a881 -30%, #7a6c4b 35%, #d6bd83 100%);
+  cursor: pointer;
+}
+
+#photos h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: rgb(66, 64, 64);
+  margin: 0.5rem 0 0 2rem;
+  padding: 0;
+  font-size: 0.9rem;
+}
+#photos h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+#photos h2 {
+  font-size: 1.3rem;
+  color: green;
+  text-align: center;
+  margin: 0;
+}
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #000;
+  min-height: 200px;
+  color: #fff;
+  margin-top: 0;
+}
+footer p {
+  text-align: center;
+  position: relative;
+  bottom: -35px;
+}
+footer ul {
+  padding-top: 1rem;
+  margin: 0;
+}
+footer ul li {
+  font-size: 1.03rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+footer ul li {
+  display: flex;
+  align-items: center;
+}
+footer ul li img {
+  margin-left: 0.7rem;
+}
+footer ul li a {
+  color: rgb(183, 121, 202);
+}
+@media (max-width: 600px) {
+  #photos {
+    width: 100%;
+    justify-content: center;
+  }
+  #photos img {
+    margin: 2rem 2rem 0 2rem;
+  }
+  #development {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+  }
+  #development img {
+    width: 100%;
+  }
+  #development article {
+    /* background-color: rgb(214, 213, 213); */
+    width: 90%;
+  }
+  #about #values,
+  #goals,
+  #promotions {
+    width: 300px;
+    margin-left: 0rem;
+    text-align: start;
+    /* background-color: rgb(214, 213, 213); */
+  }
+  #about img {
+    display: none;
+    animation: info-floricultura 0.4s ease-in-out;
+    width: 270px;
+    height: 200px;
+  }
+  #about #values:hover > img,
+  #goals:hover > img,
+  #promotions:hover > img {
+    display: none;
+    animation: none;
+  }
+  #about #ramo {
+    display: none;
+  }
+  #about #galho {
+    display: none;
+  }
+}
