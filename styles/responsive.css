@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+  #photos {
+    width: 100%;
+    justify-content: center;
+  }
+  #photos img {
+    margin: 2rem 2rem 0 2rem;
+  }
+  #development {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+  }
+  #development img {
+    width: 100%;
+  }
+  #development article {
+    /* background-color: rgb(214, 213, 213); */
+    width: 100%;
+  }
+  #about {
+    display: block;
+    width: 100%;
+    animation: none;
+  }
+  #about #values,
+  #goals,
+  #promotions {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+  }
+  #about img {
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 150px;
+  }
+  #about #values:hover > img,
+  #goals:hover > img,
+  #promotions:hover > img {
+    display: none;
+  }
+  #about #ramo {
+    display: none;
+  }
+
+  #about #galho {
+    display: block;
+    margin: auto;
+  }
+}

@@ -1,0 +1,18 @@
+@keyframes info-floricultura {
+  0% {
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    width: 270px;
+    height: 200px;
+  }
+}
+@keyframes black-friday {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000000;
+  }
+}
